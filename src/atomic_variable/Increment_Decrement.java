@@ -1,8 +1,8 @@
-package exercises.atomic_variable;
+package atomic_variable;
 
 import java.util.concurrent.atomic.AtomicInteger;
 
-public class Ex_1 {
+public class Increment_Decrement {
     //initiate atomic variable
     static AtomicInteger inventoryCount = new AtomicInteger(1000);
 
