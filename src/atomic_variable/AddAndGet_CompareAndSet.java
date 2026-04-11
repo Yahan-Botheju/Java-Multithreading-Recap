@@ -1,8 +1,8 @@
-package exercises.atomic_variable;
+package atomic_variable;
 
 import java.util.concurrent.atomic.AtomicInteger;
 
-public class Ex_2 {
+public class AddAndGet_CompareAndSet {
 
     //initiate atomic integer
     static AtomicInteger score = new AtomicInteger(0);
